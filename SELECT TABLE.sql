@@ -1,0 +1,14 @@
+USE startup_db;
+SELECT * FROM acquisitions;
+SELECT * FROM degrees ORDER BY object_id, graduated_at DESC;
+SELECT * FROM funding_rounds;
+SELECT * FROM funds;
+SELECT * FROM investments;
+SELECT * FROM milestones;
+SELECT * FROM ipos;
+SELECT * FROM offices;
+SELECT * FROM people;
+SELECT * FROM objects;
+SELECT * FROM relationships;
+SELECT * FROM countries;
+SELECT CONCAT(first_name,' ', last_name) AS full_name FROM people;

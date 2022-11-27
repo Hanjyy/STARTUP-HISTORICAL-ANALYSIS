@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS startup_db;
+CREATE DATABASE startup_db;
